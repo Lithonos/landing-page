@@ -68,7 +68,11 @@ a {
     color: #F9FAF8;
     font-weight: 900;
     padding: 0;
-    margin-bottom: 0;
+    margin: 0;
+}
+
+.header-text p {
+    margin: 5px 0;
 }
 
 button {
@@ -83,7 +87,6 @@ button {
 }
 
 .header-body img {
-    flex: 1;
     margin-left: 4em;
     min-width: 100px;
     max-width: 50%;
@@ -94,9 +97,9 @@ button {
     display: flex;
     flex: 1;
     flex-flow: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 50px 5em;
 }
 
 .info-header h1 {
@@ -127,4 +130,28 @@ button {
 
 .square-image p {
     margin-top: 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    padding: 6em;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 0 200px;
+}
+
+.quote-text p {
+    margin: 0;
+}
+
+.quote-speaker {
+    font-size: 24px;
+    padding: 0 200px;
 }
